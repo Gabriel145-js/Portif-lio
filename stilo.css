@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(13, 1, 14);
+    color:antiquewhite;
+    padding: 0;
+    margin: 0;
+    height: 2000px;
+}
+
+/* navbar*/
+.nav{
+    position: fixed;
+   width: 100%;
+   height: 65px;
+   background-color: rgb(19, 3, 48);
+   padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover{
+    color: aqua;
+}
+
+#lyst{
+    padding-right: 19px;
+    padding-top: 22px ;
+    position: relative;
+    display: inline-block ;
+    left: 76%;
+}
+
+/* apresentação*/
+
+.about{
+    position: absolute;
+    left: 30%;
+    top: 79%;
+    font-size: 21px;
+    
+}
+
+#dv{
+    font-size: 20px;
+   margin-top:0 ;
+}
+
+#apresentacao{
+    position: absolute;
+    left: 10%;
+    top:  33%;
+    font-size: 39px;
+    
+
+}
+
+#ap{
+    position: absolute;
+    left: 10%;
+    top:  43%;
+    font-size: 20px
+
+}
+
+#img{
+    border-radius: 300px;
+    max-width: 400px;
+    position: relative;
+    top: 200px;
+    left: 70%;
+    
+}
+
+#img:hover
+{
+    transition: 0.8s;
+    transform: scale(1.2)
+}
+
+/* skills*/
+
+#skills{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 700px;
+    margin-bottom: 150px;
+    font-size: 45px;
+}   
+
+
+.card{
+    display: inline-block;
+    
+}
+
+.box{
+    border-top-left-radius: 20px;
+    background-color: rgb(127, 134, 235);
+    width: 90px;
+    padding: 0 0 5px ;
+    border-bottom: 5px solid rgb(66, 12, 110);
+    text-align: center;
+    color: rgb(25, 1, 43);
+    margin: 5px;
+    display: inline-block;
+}
+
+.box:hover{
+    -ms-transform: scale(1.3);
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+
+#Contatos{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 700px;  
+    margin-bottom: 150px;
+    font-size: 45px;
+
+}
+.ctt{
+    display: inline-block;
+}
+
+
+
+.card-bullet{
+    display: inline-block;
+    margin-right: 32px;
+    
+}
+
+
+
+#bola{
+    background-color:rgb(127, 134, 235); 
+    width: 40px;
+    max-height: 30px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.bullets{
+    
+    text-align: center;
+}
+
+.bullets:hover{
+    -ms-transform: scale(1.3);
+    transform: scale(1.2);
+    transition: 0.1s;
+    cursor: pointer;
+}
