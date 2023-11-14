@@ -14,6 +14,7 @@ body{
    background-color: rgb(19, 3, 48);
    padding: 0;
     margin: 0;
+    z-index: 1;
 }
 a{
     text-decoration: none;
@@ -68,7 +69,7 @@ a:hover{
 #img{
     border-radius: 300px;
     max-width: 400px;
-    position: relative;
+    position: absolute;
     top: 200px;
     left: 70%;
     
