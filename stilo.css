@@ -133,7 +133,7 @@ a:hover{
 .card-bullet{
     display: inline-block;
     margin-right: 32px;
-    
+    margin-bottom: 50px;
 }
 
 
@@ -146,6 +146,7 @@ a:hover{
     margin: auto;
     text-align: center;
     border-radius: 50px;
+    
 }
 
 .bullets{
