@@ -4,8 +4,7 @@ body{
     padding: 0;
     margin: 0;
     height: 2000px;
-    display: flex;
-    box-sizing: border-box;
+    
 }
 
 /* navbar*/
@@ -21,6 +20,8 @@ body{
     border-bottom: 2px solid  rgb(127, 134, 235);
    
 }
+
+
 a{
     text-decoration: none;
     color: white;
@@ -39,6 +40,12 @@ a:hover{
     left: 76%;
 }
 
+@media screen and (max-width:900px ) {
+    #lyst{
+        
+        display: none;
+    }
+}
 /* apresentação*/
 
 
@@ -57,7 +64,7 @@ a:hover{
 
 #dv{
     font-size: 20px;
-   margin-top:0 ;
+    margin-top:0 ;
 }
 
 #apresentacao{
@@ -65,7 +72,7 @@ a:hover{
     left: 10%;
     top:  33%;
     font-size: 39px;
-    
+    text-align: center;
 
 }
 
@@ -82,6 +89,7 @@ a:hover{
     max-width: 400px;
     position: absolute;
     top: 200px;
+    transition: 0.8s;
     left: 70%;
     
 }
@@ -119,12 +127,13 @@ a:hover{
     color: rgb(25, 1, 43);
     margin: 5px;
     display: inline-block;
+    transition: 0.3s;
 }
 
 .box:hover{
     -ms-transform: scale(1.3);
     transform: scale(1.2);
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
 
@@ -163,22 +172,24 @@ a:hover{
 }
 
 .bullets{
-    
+    transition: 0.3s;
     text-align: center;
 }
 
 .bullets:hover{
     -ms-transform: scale(1.3);
     transform: scale(1.2);
-    transition: 0.1s;
+    transition: 0.3s;
     cursor: pointer;
 }
 
 /* projetos */
 
 .projeto-pai{
-    display: flex;
-    justify-content: space-evenly;
+    display: inline-flex;
+    position: relative;
+    right: 20%;
+    
     gap: 50px;
     
 }
