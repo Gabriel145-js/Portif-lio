@@ -9,20 +9,44 @@
         <link rel="stylesheet" href="stilo.css">
     </nav>
     <script src="https://kit.fontawesome.com/0c81659ef6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
     <!-- Navbar -->
-    <div>
-        <nav>
-            <ul class="nav">
-                <li id="lyst"><a href="#about1">Sobre Min</a></li>
-                <li id="lyst"><a href="#skills">Habilidades</a></li>
-                <li id="lyst"><a href="">Projetos</a></li>
-                <li id="lyst"><a href="#Contatos">Contatos</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <div class="bars">
+            <i class="fa-solid fa-bars fa-2x"></i>
+    
+        </div>
+   
+        <ul class="nav">
+            
+            <li id="lyst"><a class=" first-list" href="#about1">Sobre Min</a></li>
+            <li id="lyst"><a class=" first-list" href="#skills">Habilidades</a></li>
+            <li id="lyst"><a class=" first-list" href="">Projetos</a></li>
+            <li id="lyst"><a class=" first-list" href="#Contatos">Contatos</a></li>
+
+            
+        </ul>
+     
+    </nav>
+    <script>
+    $('.bars').on('click', function() {
+  $('.menu').toggleClass('ativo');
+});
+
+
+    </script>
+
+
+    <div class="box-menu">
+        <a class="menu" href="">Home</a>
+        <a class="menu" href="">Habilidades</a>
+        <a class="menu" href="">Projetos</a>
+        <a class="menu" href="">Contatos</a>
+
     </div>
     <!-- Apresentação -->
 
