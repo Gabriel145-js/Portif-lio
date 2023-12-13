@@ -175,18 +175,28 @@ body{
 }
 
 @media screen and (max-width: 768px) {
+    .nav{
+        padding: 0;
+        margin: 0;
+    }
+
+        
     .container-img {
         height: auto;
         padding: 20px;
         text-align: center;
+        
     }
 
     #img {
-        max-width: 300px;
+        max-width: 260px;
         position: static;
-        transition: 0.8s;
+        
     }
 
+     #img:hover{
+        transform: none;
+     }
     
     #apresentacao {
         position: relative;
