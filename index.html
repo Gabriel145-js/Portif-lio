@@ -32,13 +32,7 @@
         </ul>
      
     </nav>
-    <script>
-    $('.bars').on('click', function() {
-  $('.menu').toggleClass('ativo');
-});
 
-
-    </script>
 
 
     <div class="box-menu">
@@ -54,9 +48,9 @@
         Gabriel Zaparolli. :)
         <p id="dv"> Desenvolvedor Front-end</p>
     </h1>
-
+    <div class="container-img">
     <img src="imagems/img.jpg" alt="SouEu" id="img">
-
+    </div>  
     <div class="about">
 
 
@@ -68,7 +62,7 @@
             que contribuam na minha vida.
 
         </p>
-
+   
         <!-- Habilidades -->
 
         <section class="skills">
@@ -257,8 +251,14 @@
 
         </section>
 
-
-
+        <script>
+            $('.bars').on('click', function() {
+          $('.menu').toggleClass('ativo');
+        });
+        
+        
+        </script>
+    
 </body>
 
 </html>

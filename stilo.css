@@ -39,7 +39,7 @@ body{
     padding-right: 19px;
     padding-top: 22px ;
     position: relative;
-    display: inline-flex ;
+    display: flex ;
     left: 76%;
  }
  
@@ -81,14 +81,16 @@ body{
      display: none;
    }
    
+   .box-menu{
+    display: none;
+   }
  }
  @media screen and (max-width: 900px) {
    .bars {
-     display: flex; /* Mostra .bars */
+     display: flex; 
    }
  
  }
- 
  
  @media screen  {
    .menu{
@@ -154,18 +156,12 @@ body{
 
 }
 
-#ap{
-    position: absolute;
-    left: 10%;
-    top:  43%;
-    font-size: 20px
-
-}
 
 #img{
     border-radius: 300px;
     max-width: 400px;
-    position: absolute;
+    position: relative;
+
     top: 200px;
     transition: 0.8s;
     left: 70%;
@@ -176,6 +172,42 @@ body{
 {
     transition: 0.8s;
     transform: scale(1.2)
+}
+
+@media screen and (max-width: 900px) {
+    .container-img {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #img {
+        max-width: 300px;
+        position: static;
+        transition: 0.8s;
+    }
+
+    
+    #apresentacao {
+        position: relative;
+        text-align: center;
+        top: 25%;
+        left: 0%;
+    }
+
+    .about{
+        display: inline;      
+        position: relative;
+        top: 10%;
+        left: 0%;
+        text-align: center;
+
+
+    }
+    #about1{
+      position: relative;
+      text-align: center;
+    }
 }
 
 /* skills*/
