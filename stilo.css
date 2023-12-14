@@ -175,9 +175,12 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .nav{
-        padding: 0;
+    body {
+        
         margin: 0;
+        padding: 0;
+      
+        
     }
 
         
@@ -220,10 +223,16 @@ body{
     }
 
 
-    .projeto-pai{
+    .projeto-pai {
         flex-direction: column;
-        
+        position: relative;
+        left: 0%;
+      
+     
+       
     }
+
+   
 
     
 
