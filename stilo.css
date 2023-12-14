@@ -225,14 +225,8 @@ body{
 
     .projeto-pai {
         flex-direction: column;
-        position: relative;
-        left: 0%;
-      
-     
-       
+        max-width: 200px;
     }
-
-   
 
     
 
