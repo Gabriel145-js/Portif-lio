@@ -43,7 +43,7 @@ body{
     left: 76%;
  }
  
- @media screen and (max-width:900px ) {
+ @media screen and (max-width:768px  ) {
     #lyst{
         
         display: none;
@@ -76,7 +76,7 @@ body{
    color: aqua;
  }
  
- @media screen and (min-width:900px) {
+ @media screen and (min-width:768px) {
    .bars{
      display: none;
    }
@@ -85,7 +85,7 @@ body{
     display: none;
    }
  }
- @media screen and (max-width: 900px) {
+ @media screen and (max-width: 768px) {
    .bars {
      display: flex; 
    }
@@ -185,7 +185,8 @@ body{
         height: auto;
         padding: 20px;
         text-align: center;
-        
+        position: relative;
+        top: -100px;
     }
 
     #img {
@@ -201,14 +202,13 @@ body{
     #apresentacao {
         position: relative;
         text-align: center;
-        top: 25%;
+        top: 20%;
         left: 0%;
     }
 
-    .about{
-        display: inline;      
+    .about{    
         position: relative;
-        top: 10%;
+        top: 13%;
         left: 0%;
         text-align: center;
 
@@ -218,6 +218,15 @@ body{
       position: relative;
       text-align: center;
     }
+
+
+    .projeto-pai{
+        flex-direction: column;
+        
+    }
+
+    
+
 }
 
 /* skills*/
