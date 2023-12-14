@@ -39,7 +39,7 @@ body{
  #lyst{
     padding-right: 19px;
     padding-top: 22px ;
-    
+    list-style-type: none;
  }
  
  @media screen and (max-width:768px  ) {
