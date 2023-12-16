@@ -17,7 +17,7 @@ body{
     background-color: rgb(19, 3, 48);
     padding: 0;
     margin: 0;
-    z-index: 1;
+    z-index: 3;
     border-bottom: 2px solid  rgb(127, 134, 235);
   
  }
@@ -50,18 +50,10 @@ body{
     }
    
  }
- /* Adicione estilos adicionais para o .menu quando a classe 'ativo' é aplicada */
- .menu.ativo {
-   display: flex;
-   flex-direction: column;
-   color: white;
-   
- }
- 
- 
+
  
  .bars{
-   z-index: 2;
+   z-index: 4;
    height: 0;
    color: white;
    display: flex;
@@ -94,37 +86,51 @@ body{
  @media screen  {
    .menu{
      display: none;
+     z-index: 2;
    }
  
    
  }
  
- .box-menu{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   gap: 60px;
-   
-   
- }
- 
- .menu{
-   position: relative;
-   top: 100px;
-   text-decoration: none;
-   font-size: 3em;
-   font-family: monospace;
-   transition: 0.8s;
-   color: white;
- }
- 
- .menu:hover{
-   scale: 1.5;
-   transition: 0.8s;
-   color:aqua;
+ .box-menu {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); /* Ajuste a opacidade conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999; /* Garante que fique sobreposto a outros elementos */
+    visibility: hidden; /* Inicialmente oculto */
+    opacity: 0; /* Inicialmente transparente */
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Transição suave */
+}
+.box-menu p{
+    position: relative;
+    top: -230px;
+    font-size: 2.5em;
+    color: blueviolet;
+}
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-decoration: none;
+        top: -160px;
+        color: aliceblue;
+        font-size: 2em;
+       padding-bottom: 50px;
+        z-index: 999999999999;
+    }
 
- }
+.box-menu.ativo {
+    visibility: visible;
+    opacity: 1;
+}
 /* apresentação*/
 
 
@@ -186,7 +192,7 @@ body{
         padding: 20px;
         text-align: center;
         position: relative;
-        top: -100px;
+        top: -10px;
     }
 
     #img {
@@ -202,13 +208,13 @@ body{
     #apresentacao {
         position: relative;
         text-align: center;
-        top: 20%;
+        top: 26%;
         left: 0%;
     }
 
     .about{    
         position: relative;
-        top: 13%;
+        top: 9%;
         left: 0%;
         text-align: center;
 
