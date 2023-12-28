@@ -224,6 +224,10 @@ body{
         left: 0%;
     }
 
+    .menu{
+        top: -110px ;
+    }
+
     .mecher{    
         position: relative;
         top: 450px;
@@ -270,6 +274,7 @@ body{
 
     .contatos{
         margin-top: 300px;
+        flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
         
@@ -283,7 +288,7 @@ body{
     .box-menu p{
         font-size: 2em;
         text-align: center;
-        top: -120px;
+        top: -110px;
     }
 
 }
