@@ -4,6 +4,7 @@ body{
     padding: 0;
     margin: 0;
     height: auto;
+    overflow-x: hidden;
     
 }
 
@@ -350,7 +351,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 10%;
+  margin-top: 5%;
   position: relative;  
   left: 3%;
    

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-Br">
 
 <head>
   <meta charset="UTF-8">
@@ -23,9 +23,9 @@
     <ul class="nav">
 
       <li id="lyst"><a class=" first-list" href="#about">Sobre Min</a></li>
-      <li id="lyst"><a class=" first-list" href="#skills">Habilidades</a></li>
-      <li id="lyst"><a class=" first-list" href="">Projetos</a></li>
-      <li id="lyst"><a class=" first-list" href="#Contatos">Contatos</a></li>
+      <li id="lyst"><a class=" first-list" href="#skill">Habilidades</a></li>
+      <li id="lyst"><a class=" first-list" href="#project">Projetos</a></li>
+      <li id="lyst"><a class=" first-list" href="#contato">Contatos</a></li>
 
 
     </ul>
@@ -36,10 +36,10 @@
 
   <div class="box-menu">
     <p>Bem Vindo ao Meu Portifolio</p>
-    <a class="menu" href="">Home</a>
-    <a class="menu" href="">Habilidades</a>
-    <a class="menu" href="">Projetos</a>
-    <a class="menu" href="">Contatos</a>
+    <a class="menu" href="#about">Home</a>
+    <a class="menu" href="#skill">Habilidades</a>
+    <a class="menu" href="#project">Projetos</a>
+    <a class="menu" href="#contato">Contatos</a>
 
   </div>
   <!-- Apresentação -->
@@ -69,7 +69,7 @@
 
   <!-- Habilidades -->
 
-  <section class="skills">
+  <section class="skills" id="skill">
     <h2 id="skills">Habilidades</h2>
     <div class="card">
       <div class="box">
@@ -99,6 +99,7 @@
 
 
   <!-- Projetos -->
+  <section id="project">
   <p class="tit-projeto">Projetos</p>
 
   <div class="container">
@@ -158,11 +159,11 @@
 
   </div>
 
-
+</section>
 
   <!-- Contatos -->
   <h2 class="title-ctt">Contatos</h2>
-  <div class="contatos">
+  <div class="contatos" id="contato">
     <div class="card-bullet">
       <div class="bullets">
         <div id="bola">
@@ -252,7 +253,43 @@
         mecher.classList.add('aparecer');
       }
     });
+
+    
   </script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const aboutLink = document.querySelector('a[href="#skill"]');
+    const skillsLink = document.querySelector('a[href="#project"]');
+    const contatosLink = document.querySelector('a[href="#contato"]');
+
+    function scrollToSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        const sectionTop = section.getBoundingClientRect().top;
+        const offsetTop = sectionTop + window.pageYOffset;
+        window.scrollTo({
+          top: offsetTop - (window.innerHeight - section.offsetHeight) / 2,
+          behavior: 'smooth'
+        });
+      }
+    }
+
+    aboutLink.addEventListener('click', function (event) {
+      event.preventDefault();
+      scrollToSection('skill');
+    });
+
+    skillsLink.addEventListener('click', function (event) {
+      event.preventDefault();
+      scrollToSection('project');
+    });
+
+    contatosLink.addEventListener('click', function (event) {
+      event.preventDefault();
+      scrollToSection('contato');
+    });
+  });
+</script>
 
 </body>
 
