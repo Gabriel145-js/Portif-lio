@@ -204,7 +204,7 @@ body{
         padding: 20px;
         text-align: center;
         position: relative;
-        top: -10px;
+        top: -50px;
     }
 
     #img {
@@ -220,7 +220,7 @@ body{
     #apresentacao {
         position: relative;
         text-align: center;
-        top: 500px;
+        top: 400px;
         left: 0%;
     }
 
@@ -230,7 +230,7 @@ body{
 
     .mecher{    
         position: relative;
-        top: 450px;
+        top: 400px;
         left: 0%;
         text-align: center;
 
