@@ -265,17 +265,19 @@
       .tit-projeto{
           position: relative;
           top: 310px;
+          
       }
   
       .container{
           position: relative;
           top: 330px;
-          
+           
       }
-  
+
+
       .projeto{
           position: relative;
-          left: 5%;
+          left: 8% ;
       }
   
      
