@@ -204,6 +204,9 @@
   }
   
   @media screen and (max-width: 768px) {
+    body{
+      overflow-x: hidden;
+    }
       .nav{
           top: 0%;
           padding: 0;
@@ -216,7 +219,7 @@
           padding: 20px;
           text-align: center;
           position: relative;
-          top: -50px;
+          top: -100px;
       }
   
       #img {
@@ -232,7 +235,7 @@
       #apresentacao {
           position: relative;
           text-align: center;
-          top: 450px;
+          top: 400px;
           left: 0%;
       }
   
