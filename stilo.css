@@ -701,14 +701,15 @@
     
     .text-conteudo {
       position: relative;
-      top: 10px;
+      top: 20px;
     }
 
-    .video{
-      top: 400px;
-      min-width:300px  ;
-      left: 20px;
-    }
+    .video {
+      top: 400px; 
+      left: 20px; 
+      min-width: 100%; 
+   }
+   
 
     .botoes-acesso{
       top: 635px ;
