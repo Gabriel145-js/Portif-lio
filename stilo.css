@@ -291,7 +291,7 @@
           flex-direction: column;
           flex-wrap: wrap;
           position: relative;
-          left: 7%;
+          left: 5%;
           
       }
   
@@ -515,7 +515,7 @@
       background-color: aqua;
       border-radius: 50px;
       left: 100px;
-      bottom: -100px;
+      bottom: -90px;
       
     }
   
@@ -703,12 +703,13 @@
 
     .video{
       top: 400px;
-      min-width:100px  ;
+      min-width:300px  ;
       left: 20px;
     }
 
     .botoes-acesso{
       top: 635px ;
+      left: 47%;
     }
     
   }
