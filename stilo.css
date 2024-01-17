@@ -310,11 +310,11 @@
   /* skills*/
   
   #skills{
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'Courier Nw', Courier, monospace;
       text-align: center;
       margin-top: 30%;
       margin-bottom: 40px;
-      font-size: 45px;
+      font-size: 3em;
   }   
   
   
@@ -351,9 +351,10 @@
   
   .tit-projeto{
       text-align: center;
-      font-size: 2em;
+      font-size: 3em;
       margin-top: 20%;
-  
+      font-family:monospace;
+    
   
   }
   
@@ -611,7 +612,7 @@
       align-items: end;
       white-space: nowrap;
       position: relative;
-      right: 60%;
+      right: 40%;
       height: 20px;
       text-decoration: none;
       flex-direction: row;
@@ -621,7 +622,7 @@
       border-radius: 20px;
       color: black;
       top: 350px;
-        
+      max-width: 100%;
   }
   
   .botoes-modal{
@@ -629,9 +630,9 @@
       align-items: end;
       flex-direction: row;
       position: relative;
-      right: 30%;
-      max-width: 100%; 
-      width: auto;
+     
+      
+      
      
   
   }
@@ -687,5 +688,28 @@
 
 
    
+  }
+
+  @media screen and (max-width:768px) {
+
+    .modal-conteudo{
+          height: auto;
+    }
+    
+    .text-conteudo {
+      position: relative;
+      top: 10px;
+    }
+
+    .video{
+      top: 400px;
+      min-width:300px  ;
+      left: 20px;
+    }
+
+    .botoes-acesso{
+      top: 630px ;
+    }
+    
   }
   
