@@ -178,13 +178,19 @@
       text-align: center;
   
   }
+  .download_cv{
+    text-decoration: none;
+    display: flex;
+    font-size: 0.6em;
+    flex-direction: column;
+    
+}
   
   
   #img{
       border-radius: 300px;
       max-width: 400px;
       position: relative;
-  
       top: 200px;
       transition: 0.8s;
       left: 70%;
@@ -226,7 +232,7 @@
       #apresentacao {
           position: relative;
           text-align: center;
-          top: 400px;
+          top: 450px;
           left: 0%;
       }
   
@@ -604,6 +610,7 @@
       white-space: nowrap;
       position: relative;
       right: 60%;
+      height: 20px;
       text-decoration: none;
       flex-direction: row;
       padding: 10px;
@@ -611,7 +618,8 @@
       background-color: rgb(255, 255, 255);
       border-radius: 20px;
       color: black;
-      
+      top: 350px;
+        
   }
   
   .botoes-modal{
@@ -641,3 +649,41 @@
       border-radius: 50%;
   
   }
+
+  @media screen and ( max-width:1100px) {
+    .modal-conteudo {
+      height: auto;
+      overflow: auto;
+    }
+  
+    .text-conteudo {
+      display: flex;
+      position: relative;
+      max-width: 100%;    
+      margin-top: 10px; /* Remova o deslocamento superior */
+    }
+  
+    .video {
+      position: absolute;
+      top: 300px;
+      left: 0;
+      margin-top: 70px; /* Adicione um espaço entre o texto e o vídeo */
+      max-width: 100%;
+      min-width: 400px ;
+      
+    }
+  
+    .botoes-acesso {
+        position: relative;
+        left: 50%;
+        transform: translateX(-100%);
+        top: 600px;
+        margin-top: 10px;
+        display: flex;
+        
+      }
+
+
+   
+  }
+  
