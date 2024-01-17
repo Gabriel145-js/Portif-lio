@@ -104,15 +104,15 @@
       left: 0;
       width: 100vw;
       height: 100vh;
-      background-color: rgba(0, 0, 0, 0.8); /* Ajuste a opacidade conforme necessário */
+      background-color: rgba(0, 0, 0, 0.8); 
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      z-index: 9999; /* Garante que fique sobreposto a outros elementos */
-      visibility: hidden; /* Inicialmente oculto */
-      opacity: 0; /* Inicialmente transparente */
-      transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Transição suave */
+      z-index: 9999; 
+      visibility: hidden; 
+      opacity: 0; 
+      transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; 
   }
   .box-menu p{
       position: relative;
@@ -142,11 +142,11 @@
   
   .mecher{
     position: relative;
-    left: -200px; /* Posição inicial fora da tela à esquerda */
+    left: -200px; 
     top: 350px;
     transform: translateY(-50%);
     opacity: 0;
-    transition: all 1.5s ease; /* Transição suave */
+    transition: all 1.5s ease; 
     
   }
   .about{
@@ -183,6 +183,7 @@
     display: flex;
     font-size: 0.6em;
     flex-direction: column;
+    color: rgb(113, 119, 197);
     
 }
   
@@ -245,7 +246,7 @@
   
       .mecher{    
           position: relative;
-          top: 400px;
+          top: 370px;
           left: 0%;
           text-align: center;
   
@@ -255,7 +256,7 @@
       .skills{
          
           position: relative;
-          top: 300px;
+          top: 200px;
   
       }
   
@@ -436,7 +437,7 @@
     }
   
   .aparecer {
-      left: 0%; /* Posição central */
+      left: 0%; 
       opacity:1;
     }
   
@@ -697,6 +698,7 @@
 
     .modal-conteudo{
           height: auto;
+          overflow-x: hidden;
     }
     
     .text-conteudo {
@@ -706,8 +708,8 @@
 
     .video {
       top: 400px; 
-      left: 20px; 
-      min-width: 100%; 
+      left:15px ; 
+      min-width: 90%; 
    }
    
 
