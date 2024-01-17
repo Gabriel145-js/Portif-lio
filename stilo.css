@@ -277,7 +277,7 @@
 
       .projeto{
           position: relative;
-          left: 8% ;
+          left: 10% ;
       }
   
      
@@ -290,8 +290,8 @@
           margin-top: 300px;
           flex-direction: column;
           flex-wrap: wrap;
-          align-items: center;
-          
+          position: relative;
+          left: 7%;
           
       }
   
@@ -703,12 +703,12 @@
 
     .video{
       top: 400px;
-      min-width:300px  ;
+      min-width:100px  ;
       left: 20px;
     }
 
     .botoes-acesso{
-      top: 630px ;
+      top: 635px ;
     }
     
   }
