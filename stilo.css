@@ -578,7 +578,7 @@
       flex-direction: column;
       text-align: left;
       color: rgb(255, 255, 255);
-      word-break: break-all;
+      word-break: break-word;
       max-width: 100%; /* Ajuste conforme necessário */
       max-height: 60%;
       margin-top: -300px;
