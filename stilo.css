@@ -357,8 +357,6 @@
       text-align: center;
       font-size: 3em;
       margin-top: 20%;
-      font-family:monospace;
-    
   
   }
   
@@ -519,7 +517,7 @@
       background-color: aqua;
       border-radius: 50px;
       left: 100px;
-      bottom: -70px;
+      bottom: -40px;
       
     }
   
