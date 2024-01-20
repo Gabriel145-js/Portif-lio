@@ -264,7 +264,7 @@
     window.addEventListener('scroll', function () {
       var mecher = document.querySelector('.mecher');
       var posicaoElemento = mecher.getBoundingClientRect().top;
-      var alturaJanela = window.innerHeight / 1.5; // Define quando o elemento deve aparecer (ajuste conforme necessário)
+      var alturaJanela = window.innerHeight / 1.5; 
 
       if (posicaoElemento < alturaJanela) {
         mecher.classList.add('aparecer');

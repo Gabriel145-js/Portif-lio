@@ -550,12 +550,12 @@
       padding: 5%;
       width: 70%;
       max-width: 80%;
-      height: 370px; /* Alterado para 'auto' para se ajustar ao conteúdo */
+      height: 370px; 
       border-radius: 5%;
       position: relative;
-      margin: 0 auto; /* Centraliza a modal na tela */
-      display: flex; /* Utilizando flexbox */
-      flex-direction: row; /* Direção do flex para lado a lado */
+      margin: 0 auto; 
+      display: flex;
+      flex-direction: row; 
       min-height: 200px;
      
   }
@@ -665,14 +665,14 @@
       display: flex;
       position: relative;
       max-width: 100%;    
-      margin-top: 10px; /* Remova o deslocamento superior */
+      margin-top: 10px; 
     }
   
     .video {
       position: absolute;
       top: 300px;
       left: 0;
-      margin-top: 70px; /* Adicione um espaço entre o texto e o vídeo */
+      margin-top: 70px; 
       max-width: 100%;
       min-width: 400px ;
       
