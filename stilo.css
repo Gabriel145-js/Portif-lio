@@ -664,13 +664,18 @@
     .text-conteudo {
       display: flex;
       position: relative;
-      max-width: 100%;    
+      max-width: 100%;   
+      height: auto; 
       margin-top: 10px; 
+    }
+
+    .text-conteudo h1{
+      text-wrap: nowrap;
     }
   
     .video {
       position: absolute;
-      top: 300px;
+      top: 400px;
       left: 0;
       margin-top: 70px; 
       max-width: 100%;
@@ -683,7 +688,6 @@
         left: 50%;
         transform: translateX(-100%);
         top: 600px;
-        margin-top: 10px;
         display: flex;
         
       }
